@@ -29,7 +29,7 @@ In the body of this request, the user can provide any number of movie IDs obtain
 The result of this query is to be a list of all lists added with the previous request (ID in the database and previously given name). Creating a pagination and searching by name will be an additional advantage.
 
 ### GET /favorites/:id
-Ten endpoint ma przyjmować jako parametr ID listy w bazie oraz zwracać szczegóły oraz elementy listy (ID, nazwa, lista filmów oraz listy aktorów dla każdego z filmów).
+This endpoint is supposed to take as a parameter the ID of the list in the database and return the details and elements of the favorite list (ID, name, movie list and character list for each movie).
 
 ### GET /favorites/:id/file
 The last endpoint is supposed to send the favorites list details as an Excel file. The first column should contain a distinct list of characters appearing in the movies included in a given favorite list, the second column should contain the movie titles separated by a comma, but only those that are in the given favorite list.
