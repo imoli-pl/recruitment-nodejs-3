@@ -6,7 +6,7 @@ Your task is to create a project in Node.js using TypeScript. The project aims t
 Create a public repository in any Git provider you like (eg GitHub, GitLab, Bitbucket) to which you will commit changes to your project. You will need this as you will send us the url of your project.
 
 ## 2. Initialize the project
-The task is going to be simple, so we would like you not to use biolerplates. You will need the LTS version of Node.js. We encourage you to use TypeScript. We would like you to use Express and use the ORM library of your choice. In the project you will create a REST API and you will have to consume external public API.
+The task is going to be simple, so we would like you not to use biolerplates. You will need the LTS version of Node.js. We encourage you to use TypeScript. We would like you to use Express and use the ORM library of your choice with PostgreSQL database. In the project you will create a REST API and you will have to consume external public API.
 
 ## 3. The task
 Create an API service that will consist of the following endpoints:
